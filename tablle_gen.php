@@ -3,12 +3,12 @@
      $col_count = $_GET['col_num'];
      $gender = $_GET['gender'];
      $dept = $_GET['dept'];
-     $message = $_GET['message'];
+     $msg = $_GET['message'];
 
      echo ' 表格大小: ' . $row_count . ', 列: ' . $col_count . ', 行: '; 
      echo '性別' . $gender ."。";
      echo '科系' . $dept ."。";
-     echo '留言' . $message ."。";
+     echo '留言' . $msg ."。";
 
      echo "<table border=\"1\">";
 
